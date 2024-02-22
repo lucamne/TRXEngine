@@ -1,0 +1,17 @@
+﻿  Camera2D.cpp
+  ImageLoader.cpp
+  InputManager.cpp
+  IOManager.cpp
+  ResourceManager.cpp
+  Window.cpp
+  Generating Code...
+  picoPNG.cpp
+C:\Users\negri\GitSpace\TRXEngine\TRXEngine\picoPNG.cpp(130,107): warning C4458: declaration of 'codetree' hides class member
+  C:\Users\negri\GitSpace\TRXEngine\TRXEngine\picoPNG.cpp(129,29):
+  see declaration of 'TRXEngine::decodePNG::Zlib::Inflator::codetree'
+  
+C:\Users\negri\GitSpace\TRXEngine\TRXEngine\picoPNG.cpp(454,46): warning C4458: declaration of 'info' hides class member
+  C:\Users\negri\GitSpace\TRXEngine\TRXEngine\picoPNG.cpp(255,15):
+  see declaration of 'TRXEngine::decodePNG::PNG::info'
+  
+  TRXEngine.vcxproj -> C:\Users\negri\GitSpace\TRXEngine\x64\Debug\TRXEngine.lib
