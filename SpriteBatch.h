@@ -52,7 +52,7 @@ namespace TRXEngine
 		void begin(GlyphSortType sort_type = GlyphSortType::TEXTURE);
 		void end();
 
-		void draw(const glm::vec4& destinstion_rectangle, const glm::vec4& uv_rectangle, GLuint texture, float depth, const Color& color);
+		void draw(const glm::vec4& destination_rectangle, const glm::vec4& uv_rectangle, GLuint texture, float depth, const Color& color);
 		void renderBatch();
 
 	private:

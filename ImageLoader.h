@@ -9,7 +9,7 @@ namespace TRXEngine {
 	class ImageLoader
 	{
 	public:
-		/* Given filepath fp, load image into harware memory */
+		/* Given filepath fp, load image into hardware memory */
 		static GLTexture loadPNG(std::string fp);
 	};
 }

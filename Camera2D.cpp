@@ -26,7 +26,6 @@ namespace TRXEngine {
 
 	void Camera2D::update()
 	{
-		// check comments from ben, need to understand this better
 		if (m_needs_matrix_update)
 		{
 			glm::vec3 translate{ -m_position.x + m_screen_width/2.0f,-m_position.y + m_screen_height/2.0f, 0.0f };

@@ -7,7 +7,8 @@ namespace TRXEngine
 {
 	SpriteBatch::SpriteBatch()
 		:m_vbo{0},
-		m_vao{0}
+		m_vao{0},
+		m_glyphs{}
 	{
 	}
 	SpriteBatch::~SpriteBatch()
@@ -34,26 +35,26 @@ namespace TRXEngine
 		sortGlyphs();
 	}
 	// first 2 components of destination_rectangle and uv_rectangle are position and the second two components are dimensions
-	void SpriteBatch::draw(const glm::vec4& destinstion_rectangle, const glm::vec4& uv_rectangle, GLuint texture, float depth, const Color& color)
+	void SpriteBatch::draw(const glm::vec4& destination_rectangle, const glm::vec4& uv_rectangle, GLuint texture, float depth, const Color& color)
 	{
 		Glyph* new_glyph{new Glyph};
 		new_glyph->texture = texture;
 		new_glyph->depth = depth;
 		
 		new_glyph->top_left.color = color;
-		new_glyph->top_left.setPosition(destinstion_rectangle.x, destinstion_rectangle.y + destinstion_rectangle.w);
+		new_glyph->top_left.setPosition(destination_rectangle.x, destination_rectangle.y + destination_rectangle.w);
 		new_glyph->top_left.setUV(uv_rectangle.x, uv_rectangle.y + uv_rectangle.w);
 
 		new_glyph->bottom_left.color = color;
-		new_glyph->bottom_left.setPosition(destinstion_rectangle.x, destinstion_rectangle.y);
+		new_glyph->bottom_left.setPosition(destination_rectangle.x, destination_rectangle.y);
 		new_glyph->bottom_left.setUV(uv_rectangle.x, uv_rectangle.y);
 
 		new_glyph->top_right.color = color;
-		new_glyph->top_right.setPosition(destinstion_rectangle.x + destinstion_rectangle.z, destinstion_rectangle.y + destinstion_rectangle.w);
+		new_glyph->top_right.setPosition(destination_rectangle.x + destination_rectangle.z, destination_rectangle.y + destination_rectangle.w);
 		new_glyph->top_right.setUV(uv_rectangle.x + uv_rectangle.z , uv_rectangle.y + uv_rectangle.w);
 
 		new_glyph->bottom_right.color = color;
-		new_glyph->bottom_right.setPosition(destinstion_rectangle.x + destinstion_rectangle.z, destinstion_rectangle.y);
+		new_glyph->bottom_right.setPosition(destination_rectangle.x + destination_rectangle.z, destination_rectangle.y);
 		new_glyph->bottom_right.setUV(uv_rectangle.x + uv_rectangle.z, uv_rectangle.y);
 
 		m_glyphs.push_back(new_glyph);

@@ -20,8 +20,7 @@ namespace TRXEngine
 	}
 	bool const InputManager::isKeyPressed(unsigned int key_id)
 	{
-		auto iter{ m_key_map.find(key_id) };
-		if (iter != m_key_map.end())
+		if (m_key_map.find(key_id) != m_key_map.end())
 			return m_key_map[key_id];
 		else
 			return false;

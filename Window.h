@@ -5,6 +5,7 @@
 #include <string>
 
 namespace TRXEngine {
+	// Window options
 	enum WindowFlags
 	{
 		INVISIBLE = 0x1,
@@ -20,8 +21,9 @@ namespace TRXEngine {
 		~Window();
 
 		int create(std::string window_name, int screen_width, int screen_height, unsigned int current_flags);
-		int getScreenWidth() { return m_screen_width; }
-		int getScreenHeight() { return m_screen_height; }
+		int const getScreenWidth() { return m_screen_width; }
+		int const getScreenHeight() { return m_screen_height; }
+		// swap buffer should be called after rendering
 		void swapBuffer() { SDL_GL_SwapWindow(m_sdl_window); }
 	private:
 		SDL_Window* m_sdl_window{};
