@@ -34,7 +34,7 @@ namespace TRXEngine
 	{
 		sortGlyphs();
 	}
-	// first 2 components of destination_rectangle and uv_rectangle are position and the second two components are dimensions
+	// first 2 components of destination_rectangle and uv_rectangle are position and the second two components are width and height
 	void SpriteBatch::draw(const glm::vec4& destination_rectangle, const glm::vec4& uv_rectangle, GLuint texture, float depth, const Color& color)
 	{
 		Glyph* new_glyph{new Glyph};
@@ -69,6 +69,7 @@ namespace TRXEngine
 			glDrawArrays(GL_TRIANGLES, m_render_batches[i].offset, m_render_batches[i].num_vertices);
 		}
 		glBindVertexArray(0);
+		glBindTexture(GL_TEXTURE_2D, 0);
 	}
 	void SpriteBatch::createRenderBatches()
 	{

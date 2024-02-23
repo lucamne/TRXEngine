@@ -13,7 +13,7 @@ namespace TRXEngine {
 		~Camera2D();
 
 		void init(int screen_width, int screen_height);
-
+		/// translates and scales camera based on m_position and m_scale
 		void update();
 
 		// setters

@@ -21,7 +21,9 @@ namespace TRXEngine {
 	{
 		m_screen_height = screen_height;
 		m_screen_width = screen_width;
-		m_ortho_matrix = glm::ortho(0.0f, (float)m_screen_width, 0.0f, float(m_screen_height));
+		// specifies 2D coordinate system to be mapped into window positions indicated 
+		// glm::ortho(xmin, xmax, ymin, ymax)
+		m_ortho_matrix = glm::ortho(0.0f, static_cast<float>(m_screen_width), 0.0f, static_cast<float>(m_screen_height));
 	}
 
 	void Camera2D::update()
