@@ -4,17 +4,21 @@
 
 namespace TRXEngine 
 {
-	Sprite::Sprite(glm::vec4 pos_and_dim, const std::string& path_to_texture, glm::vec4 uv_rec, float depth, TRXEngine::Color color)
-		:m_depth{ depth },
-		m_pos_and_dim{ pos_and_dim },
-		m_uv_pos_and_dim{ uv_rec },
-		m_texture{ TRXEngine::ResourceManager::getTexture(path_to_texture) },
-		m_color{ color }
+	Sprite::Sprite()
 	{
 	}
 
 	Sprite::~Sprite()
 	{
+	}
+
+	void Sprite::init(glm::vec4 pos_and_dim, const std::string& path_to_texture, glm::vec4 uv_rec, float depth, TRXEngine::Color color)
+	{
+		m_pos_and_dim = pos_and_dim;
+		m_texture = TRXEngine::ResourceManager::getTexture(path_to_texture);
+		m_uv_pos_and_dim = uv_rec;
+		m_depth = depth;
+		m_color = color;
 	}
 
 	void Sprite::draw(TRXEngine::SpriteBatch& sprite_batch) const
