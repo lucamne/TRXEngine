@@ -5,6 +5,7 @@ C:\Users\negri\GitSpace\TRXEngine\TRXEngine\InputManager.cpp;C:\Users\negri\GitS
 C:\Users\negri\GitSpace\TRXEngine\TRXEngine\IOManager.cpp;C:\Users\negri\GitSpace\TRXEngine\TRXEngine\x64\Debug\IOManager.obj
 C:\Users\negri\GitSpace\TRXEngine\TRXEngine\picoPNG.cpp;C:\Users\negri\GitSpace\TRXEngine\TRXEngine\x64\Debug\picoPNG.obj
 C:\Users\negri\GitSpace\TRXEngine\TRXEngine\ResourceManager.cpp;C:\Users\negri\GitSpace\TRXEngine\TRXEngine\x64\Debug\ResourceManager.obj
+C:\Users\negri\GitSpace\TRXEngine\TRXEngine\Sprite.cpp;C:\Users\negri\GitSpace\TRXEngine\TRXEngine\x64\Debug\Sprite.obj
 C:\Users\negri\GitSpace\TRXEngine\TRXEngine\SpriteBatch.cpp;C:\Users\negri\GitSpace\TRXEngine\TRXEngine\x64\Debug\SpriteBatch.obj
 C:\Users\negri\GitSpace\TRXEngine\TRXEngine\TextureCache.cpp;C:\Users\negri\GitSpace\TRXEngine\TRXEngine\x64\Debug\TextureCache.obj
 C:\Users\negri\GitSpace\TRXEngine\TRXEngine\Timing.cpp;C:\Users\negri\GitSpace\TRXEngine\TRXEngine\x64\Debug\Timing.obj
