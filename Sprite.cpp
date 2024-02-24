@@ -12,7 +12,7 @@ namespace TRXEngine
 	{
 	}
 
-	void Sprite::init(glm::vec4 pos_and_dim, const std::string& path_to_texture, glm::vec4 uv_rec, float depth, TRXEngine::Color color)
+	void Sprite::init(const std::string& path_to_texture, glm::vec4 pos_and_dim, glm::vec4 uv_rec, float depth, TRXEngine::Color color)
 	{
 		m_pos_and_dim = pos_and_dim;
 		m_texture = TRXEngine::ResourceManager::getTexture(path_to_texture);
