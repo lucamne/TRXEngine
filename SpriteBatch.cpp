@@ -96,7 +96,7 @@ namespace TRXEngine
 		{
 			if (m_glyphs[current_glyph]->texture != m_glyphs[current_glyph - 1]->texture)
 			{
-				m_render_batches.emplace_back(offset, 6, m_glyphs[0]->texture);
+				m_render_batches.emplace_back(offset, 6, m_glyphs[current_glyph]->texture);
 			}
 			else
 			{

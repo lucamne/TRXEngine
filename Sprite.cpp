@@ -2,6 +2,8 @@
 
 #include "ResourceManager.h"
 
+#include <iostream>
+
 namespace TRXEngine 
 {
 	Sprite::Sprite()

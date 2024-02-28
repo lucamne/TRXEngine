@@ -3,6 +3,7 @@
 #include "Errors.h"
 #include "picoPNG.h"
 
+
 namespace TRXEngine {
     GLTexture ImageLoader::loadPNG(std::string fp)
     {
