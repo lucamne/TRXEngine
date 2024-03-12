@@ -17,7 +17,6 @@ namespace TRXEngine {
 		// if texture_path in map, return GLTexture
 		if (map_iter != m_texture_map.end())
 		{
-			std::cout << "Used cached texture: " << texture_path << '\n';
 			return map_iter->second;
 		}
 		GLTexture new_texture{ ImageLoader::loadPNG(texture_path) };

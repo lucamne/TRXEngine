@@ -1,0 +1,1880 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'TRXEngine::decodePNG::Zlib::Inflator::error' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 235,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::Zlib::Inflator::{ctor}",
+                  "decoratedName": "??0Inflator@Zlib@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TRXEngine::decodePNG::Zlib::Inflator::error"
+          }
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'out_'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 344,
+                  "startColumn": 50,
+                  "endLine": 344,
+                  "endColumn": 114
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::decode",
+                  "decoratedName": "?decode@PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAAX0234@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 259,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 260,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 261,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 261,
+                            "startColumn": 50
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 262,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 263,
+                            "startColumn": 44
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 264,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 264,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 265,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 266,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 268,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 70
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 270,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 88
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 277,
+                            "startColumn": 93
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 278,
+                            "startColumn": 93
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 289,
+                            "startColumn": 93
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 314,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 315,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 316,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 318,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 266,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 268,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 70
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 270,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 88
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 277,
+                            "startColumn": 93
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 278,
+                            "startColumn": 93
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 289,
+                            "startColumn": 93
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 314,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 315,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 316,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 318,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 266,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 320,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 321,
+                            "startColumn": 44
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 322,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 323,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 323,
+                            "startColumn": 63
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 324,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 324,
+                            "startColumn": 51
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 325,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 326,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "'out_' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 327,
+                            "startColumn": 42
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'info.interlaceMethod==0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 329,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 329,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 330,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'bpp>=8' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 340,
+                            "startColumn": 52
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 44
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 55
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'y<info.height')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 343,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 344,
+                            "startColumn": 50
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 345,
+                            "startColumn": 45
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 345,
+                            "startColumn": 137
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'error' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 346,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 346,
+                            "startColumn": 52
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'bp<info.width*bpp' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 347,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 71
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 55
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'y<info.height')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 343,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 344,
+                            "startColumn": 50
+                          }
+                        },
+                        "message": {
+                          "text": "'out_' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6293",
+          "message": {
+            "text": "Ill-defined for-loop."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 442,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::readBitsFromReversedStream",
+                  "decoratedName": "?readBitsFromReversedStream@PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@SAKAEA_K2K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'out_'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 521,
+                  "startColumn": 56,
+                  "endLine": 521,
+                  "endColumn": 102
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::convert",
+                  "decoratedName": "?convert@PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAAH02AEAUInfo@1?1??23@YAH011234@Z@KK@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 462,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 462,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 463,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 464,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "'out_' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 465,
+                            "startColumn": 42
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 471,
+                            "startColumn": 47
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 477,
+                            "startColumn": 47
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 483,
+                            "startColumn": 47
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 489,
+                            "startColumn": 47
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 490,
+                            "startColumn": 48
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 496,
+                            "startColumn": 48
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 502,
+                            "startColumn": 48
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 508,
+                            "startColumn": 48
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 509,
+                            "startColumn": 46
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 516,
+                            "startColumn": 46
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 517,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 517,
+                            "startColumn": 42
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<numpixels')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 519,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 520,
+                            "startColumn": 39
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '4*value>=infoIn.palette.size()' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 521,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 521,
+                            "startColumn": 46
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'c<4')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                          },
+                          "region": {
+                            "startLine": 521,
+                            "startColumn": 72
+                          }
+                        },
+                        "message": {
+                          "text": "'out_' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'TRXEngine::decodePNG::PNG::Info::key_r' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::Info::{ctor}",
+                  "decoratedName": "??0Info@PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TRXEngine::decodePNG::PNG::Info::key_r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'TRXEngine::decodePNG::PNG::Info::key_b' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::Info::{ctor}",
+                  "decoratedName": "??0Info@PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TRXEngine::decodePNG::PNG::Info::key_b"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'TRXEngine::decodePNG::PNG::Info::key_defined' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::Info::{ctor}",
+                  "decoratedName": "??0Info@PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TRXEngine::decodePNG::PNG::Info::key_defined"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'TRXEngine::decodePNG::PNG::Info::filterMethod' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::Info::{ctor}",
+                  "decoratedName": "??0Info@PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TRXEngine::decodePNG::PNG::Info::filterMethod"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'TRXEngine::decodePNG::PNG::Info::interlaceMethod' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::Info::{ctor}",
+                  "decoratedName": "??0Info@PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TRXEngine::decodePNG::PNG::Info::interlaceMethod"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'TRXEngine::decodePNG::PNG::Info::compressionMethod' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::Info::{ctor}",
+                  "decoratedName": "??0Info@PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TRXEngine::decodePNG::PNG::Info::compressionMethod"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'TRXEngine::decodePNG::PNG::Info::height' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::Info::{ctor}",
+                  "decoratedName": "??0Info@PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TRXEngine::decodePNG::PNG::Info::height"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'TRXEngine::decodePNG::PNG::Info::width' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::Info::{ctor}",
+                  "decoratedName": "??0Info@PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TRXEngine::decodePNG::PNG::Info::width"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'TRXEngine::decodePNG::PNG::Info::colorType' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::Info::{ctor}",
+                  "decoratedName": "??0Info@PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TRXEngine::decodePNG::PNG::Info::colorType"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'TRXEngine::decodePNG::PNG::Info::bitDepth' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::Info::{ctor}",
+                  "decoratedName": "??0Info@PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TRXEngine::decodePNG::PNG::Info::bitDepth"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'TRXEngine::decodePNG::PNG::Info::key_g' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::Info::{ctor}",
+                  "decoratedName": "??0Info@PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TRXEngine::decodePNG::PNG::Info::key_g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'TRXEngine::decodePNG::PNG::error' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+                },
+                "region": {
+                  "startLine": 530,
+                  "startColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TRXEngine::decodePNG::PNG::{ctor}",
+                  "decoratedName": "??0PNG@?1??decodePNG@TRXEngine@@YAHAEAV?$vector@EV?$allocator@E@std@@@std@@AEAK1PEBE_K_N@Z@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TRXEngine::decodePNG::PNG::error"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33134.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/negri/GitSpace/TRXEngine/TRXEngine/picoPNG.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c034c1a1c534b206464bdeda1c849211c0b27b30365de37f0aec6cd9309bddd9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/negri/gitspace/trxengine/trxengine/picopng.h"
+          },
+          "hashes": {
+            "sha-256": "0c60c99abe0b08242a68c9daea0970985e1a25e784a2460595889453724b4334"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33134.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/negri/gitspace/trxengine/trxengine/vertex.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "f4725a0c2465f8fa0a5b715600bc2eabc1485aec331fd2950b6fd80068b53565"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/negri/gitspace/trxengine/trxengine/vertex.h"
+          },
+          "hashes": {
+            "sha-256": "a01592f9af758bae3051faca562be48c561fe50bab2ef71c205d0a31df514c61"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/negri/gitspace/trxengine/include/gl/glew.h"
+          },
+          "hashes": {
+            "sha-256": "1a2d50dc00a69940838cb3b5413cf7a7ac3cee8078672f27ffbfa2d3b88ad344"
+          }
+        }
+      ]
+    }
+  ]
+}

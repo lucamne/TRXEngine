@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33134.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/negri/gitspace/trxengine/trxengine/resourcemanager.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "49d7f1c5c2c043d48e9e80d255fef768b4515ed73013df5a9dc00e27f6e9d6fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/negri/gitspace/trxengine/trxengine/resourcemanager.h"
+          },
+          "hashes": {
+            "sha-256": "9d197cf57d0f657cf0141c2754b610472b2fbafb1a4c30b8399eaccd5f5a41e8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/negri/gitspace/trxengine/trxengine/texturecache.h"
+          },
+          "hashes": {
+            "sha-256": "10134257c29dddc84edd5937a05892795b261046e8d0607c18b04644f686af03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/negri/gitspace/trxengine/trxengine/gltexture.h"
+          },
+          "hashes": {
+            "sha-256": "805c6dcaecd6e30bf5a57248b38b8e707cf3705212c5b5e7f5fd6c63cad3f092"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/negri/gitspace/trxengine/include/gl/glew.h"
+          },
+          "hashes": {
+            "sha-256": "1a2d50dc00a69940838cb3b5413cf7a7ac3cee8078672f27ffbfa2d3b88ad344"
+          }
+        }
+      ]
+    }
+  ]
+}
